@@ -79,8 +79,7 @@ npm run test:browser:all
 El recorrido crea seis contextos independientes, inicia una partida, mueve, apunta, dispara,
 reconecta, comprueba el resultado y prepara revancha. También deja la portada inactiva más de
 15 segundos y comprueba que no se abra ninguna conexión. La matriz cubre Chromium y WebKit
-en hills/cavern/islands (seis combinaciones), siempre con el paquete compilado, y conserva
-reportes y capturas en sus artefactos durante 14 días. Localmente cada combinación escribe
+en hills/cavern/islands (seis combinaciones), siempre con el paquete compilado. Cada combinación escribe
 en `docs/evidence/browser/<navegador>-<mapa>/`. Incluso un fallo al iniciar servidor o navegador
 genera un informe y libera los recursos ya abiertos. Chrome instalado es el predeterminado;
 WebKit de Playwright no equivale a Safari en un iPhone físico.
@@ -109,9 +108,11 @@ informes se escriben en `docs/evidence/` (ignorado por Git). Las referencias vis
 históricas usadas por terreno/biomas viven en `tests/fixtures/visual/`; son entradas de
 prueba, no resultados de la última ejecución. Regenerarlas exige revisar la diferencia.
 
-CI ejecuta además lobby móvil, joystick/apuntado, resultado/repetición y arsenal en ambos
-navegadores. Estos recorridos usan desarrollo con Vite actualizado; la matriz de tres mapas
-usa el cliente compilado. La simulación se ejecuta también en el job Node 22.
+Los recorridos de navegador se ejecutan en local, no en CI: los runners compartidos sin GPU
+renderizan tan pocos cuadros por segundo que las comprobaciones de tiempo real fallan sin que
+haya un error en el juego. El CI ejecuta la suite Node en Node 22 y 24, las simulaciones,
+`npm audit`, el escaneo de secretos y la construcción de la imagen Docker. Antes de publicar una
+versión, ejecuta `npm run test:release` en tu máquina.
 
 ## Secretos
 
@@ -134,4 +135,4 @@ aprobado; deben revisarse sus resultados en la revisión que se publicará.
 - Cortar y recuperar la conexión antes y después de 120 segundos.
 - Medir rendimiento térmico y cuadros largos durante 15–30 minutos en teléfonos.
 - Comprobar HTTPS/WSS y enlaces compartidos desde otra red.
-- Confirmar los jobs Node, navegador y contenedor de CI; ejecutar `npm audit` con red.
+- Confirmar los jobs Node, secretos y contenedor de CI, y ejecutar `npm run test:release` en local.

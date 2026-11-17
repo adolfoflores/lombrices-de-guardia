@@ -121,7 +121,7 @@ con HTTPS, revisa [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md).
 - Menús navegables con teclado, etiquetas para lectores de pantalla y una opción para reducir
   el movimiento.
 - 169 pruebas automáticas, más partidas completas que se juegan solas en Chromium y WebKit en
-  los tres mapas en cada push.
+  los tres mapas.
 
 La estructura del código y el protocolo están en [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
