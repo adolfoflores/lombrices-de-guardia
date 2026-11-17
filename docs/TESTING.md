@@ -40,8 +40,9 @@ generan en `docs/evidence/`, que Git ignora. Las comprobaciones manuales de la s
 incluidos teléfonos físicos y HTTPS/WSS público, siguen siendo necesarias antes de anunciar
 una versión estable.
 
-El proyecto fija `minimatch` 11.0.4 para ESLint 10.13.0 mediante `overrides`. Al actualizar
-ESLint, revisa si ya incorpora el parche y puede retirarse el ajuste.
+El proyecto fija `minimatch` 11.0.4 para ESLint mediante `overrides`, porque ESLint 10.14 y
+anteriores dependen de una versión con un aviso de seguridad. ESLint 10.15 ya trae la versión
+corregida: al actualizar a esa versión o posterior, retira el ajuste y confirma `npm audit`.
 
 ## Regresiones de publicación
 
