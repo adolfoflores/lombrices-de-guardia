@@ -35,7 +35,7 @@
     "licenses:check": "node scripts/licenses.js --check"
   },
   "dependencies": {
-    "pixi.js": "^8.22.0",
+    "pixi.js": "^8.23.0",
     "ws": "^8.18.3"
   },
   "overrides": {
