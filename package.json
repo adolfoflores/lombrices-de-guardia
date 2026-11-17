@@ -35,19 +35,14 @@
     "licenses:check": "node scripts/licenses.js --check"
   },
   "dependencies": {
-    "pixi.js": "^8.22.0",
+    "pixi.js": "^8.23.0",
     "ws": "^8.23.0"
-  },
-  "overrides": {
-    "eslint": {
-      "minimatch": "11.0.4"
-    }
   },
   "devDependencies": {
     "playwright": "^1.64.1",
     "vite": "^7.3.8",
     "prettier": "3.9.10",
-    "eslint": "10.14.0",
+    "eslint": "10.15.0",
     "globals": "17.14.0"
   },
   "license": "MIT",

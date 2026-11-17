@@ -10,11 +10,8 @@ for (const [path, entry] of Object.entries(lock.packages)) {
   if (metadata.version !== entry.version)
     throw new Error(`La instalación de ${metadata.name} no coincide con el lockfile. Ejecuta npm ci.`);
   const files = (await readdir(path)).filter((name) => /^licen[cs]e(?:\.|$)/i.test(name)).sort();
-  if (!files.length && metadata.name !== '@pixi/colord')
-    throw new Error(`Falta el aviso de licencia de ${metadata.name}`);
-  const notices = files.length
-    ? await Promise.all(files.map((file) => readFile(`${path}/${file}`, 'utf8')))
-    : [await readFile('docs/licenses/pixi-colord.txt', 'utf8')];
+  if (!files.length) throw new Error(`Falta el aviso de licencia de ${metadata.name}`);
+  const notices = await Promise.all(files.map((file) => readFile(`${path}/${file}`, 'utf8')));
   const notice = notices
     .join('\n')
     .replace(/\r\n/g, '\n')
