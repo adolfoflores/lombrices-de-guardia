@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="600" viewBox="0 0 760 600" role="img" aria-labelledby="title desc">
+  <title id="title">Lombrices de guardia</title>
+  <desc id="desc">Tres lombrices con pañuelos de colores defienden una pequeña isla flotante bajo un sol de mostaza.</desc>
+  <defs>
+    <linearGradient id="soil" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#bb8068"/><stop offset="1" stop-color="#855b59"/></linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fac5a2"/><stop offset="1" stop-color="#e79b82"/></linearGradient>
+    <pattern id="grain" width="17" height="19" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1" fill="#243845" opacity=".08"/><circle cx="12" cy="13" r=".7" fill="#fff8da" opacity=".13"/></pattern>
+    <clipPath id="island"><path d="M119 395Q173 369 227 387Q281 371 337 384Q423 364 471 382Q562 367 632 404L596 459 549 464 526 503 474 499 441 536 384 517 327 539 287 509 229 508 205 470 155 454Z"/></clipPath>
+  </defs>
+  <circle cx="385" cy="284" r="228" fill="#edc761"/>
+  <circle cx="385" cy="284" r="214" fill="none" stroke="#f6df91" stroke-width="2" stroke-dasharray="3 12"/>
+  <path d="M100 278H240M91 290H189M542 197H680M590 209H690" stroke="#f9e6ad" stroke-width="9" stroke-linecap="round"/>
+  <path d="M79 350Q172 300 241 354Q330 282 431 341Q538 285 668 356V430H79Z" fill="#9da87d"/>
+  <path d="M80 387Q170 340 247 395Q324 346 399 387Q516 343 674 395V437H80Z" fill="#788d73"/>
+  <path d="M119 395Q173 369 227 387Q281 371 337 384Q423 364 471 382Q562 367 632 404L596 459 549 464 526 503 474 499 441 536 384 517 327 539 287 509 229 508 205 470 155 454Z" fill="url(#soil)" stroke="#283d43" stroke-width="5" stroke-linejoin="round"/>
+  <g clip-path="url(#island)">
+    <path d="M90 405Q196 384 283 406T471 401T660 421" fill="none" stroke="#c7b15e" stroke-width="23"/>
+    <path d="M92 448Q187 420 284 442T470 446T654 456M143 483Q258 460 336 478T545 481" fill="none" stroke="#714e50" stroke-width="3" opacity=".5"/>
+    <path d="m200 423 16 2-6 8-17-3Zm117 29 11-3 5 8-15 5Zm148-24 23 4-8 9-21-3Zm54 39 19-3 7 7-20 5Zm-149 26 16-3 3 9-13 4Z" fill="#e3a77b" opacity=".55"/>
+    <rect x="110" y="390" width="540" height="155" fill="url(#grain)"/>
+  </g>
+  <!-- The lookout: a mint headband, bright eye, and a very small flag. -->
+  <path d="M195 392Q165 367 190 343Q203 330 198 302Q194 271 222 267Q254 264 257 298Q260 322 241 338Q224 355 240 368L266 386Q228 406 195 392Z" fill="url(#skin)" stroke="#273a42" stroke-width="5"/>
+  <path d="M198 290Q225 275 255 292L257 307Q228 293 199 307Z" fill="#8abca3" stroke="#273a42" stroke-width="4"/>
+  <path d="m200 293-30-11 8 23 23 1" fill="#8abca3" stroke="#273a42" stroke-width="4" stroke-linejoin="round"/>
+  <ellipse cx="244" cy="310" rx="11" ry="14" fill="#fff4d9"/><circle cx="248" cy="310" r="5" fill="#243843"/>
+  <path d="M234 334q13 8 20-6M190 364l27 9M188 375l22 9" fill="none" stroke="#935c53" stroke-width="3" stroke-linecap="round"/>
+  <path d="M163 391V307" stroke="#243843" stroke-width="5" stroke-linecap="round"/><path d="m165 308 43 9-43 16Z" fill="#ef7f68" stroke="#243843" stroke-width="3"/>
+  <!-- The grenadier, ready to roll. -->
+  <path d="M504 389Q482 365 493 346Q507 327 499 303Q490 268 514 254Q538 242 559 264Q577 286 562 312Q548 338 564 354Q580 369 595 384Q559 408 504 389Z" fill="url(#skin)" stroke="#273a42" stroke-width="5"/>
+  <path d="M497 281Q521 259 566 281L567 296Q532 281 501 298Z" fill="#e67e68" stroke="#273a42" stroke-width="4"/>
+  <path d="m564 281 27-12-8 22-17 4" fill="#e67e68" stroke="#273a42" stroke-width="4" stroke-linejoin="round"/>
+  <ellipse cx="514" cy="303" rx="11" ry="14" fill="#fff4d9"/><circle cx="510" cy="304" r="5" fill="#243843"/>
+  <path d="M505 329q13 11 24 2M515 367l24 9M523 380l24 8" fill="none" stroke="#935c53" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="586" cy="345" r="20" fill="#617e69" stroke="#273a42" stroke-width="5"/><path d="m581 326 1-11 12 2-2 10M574 340l21 8m-20 4 20-10" stroke="#273a42" stroke-width="4" fill="none"/>
+  <ellipse cx="571" cy="358" rx="13" ry="9" fill="#f6b89a" stroke="#273a42" stroke-width="4"/>
+  <!-- The captain: an original curl-shaped silhouette. -->
+  <path d="M321 393Q274 368 302 332Q326 305 316 265Q304 215 335 194Q367 173 399 200Q429 228 414 263Q402 290 379 311Q357 334 380 352Q398 365 429 376Q399 415 321 393Z" fill="url(#skin)" stroke="#273a42" stroke-width="6"/>
+  <path d="M315 228Q358 200 418 226L420 248Q364 221 318 251Z" fill="#597f9b" stroke="#273a42" stroke-width="5"/>
+  <path d="m317 232-38-19 7 31 32 4" fill="#597f9b" stroke="#273a42" stroke-width="5" stroke-linejoin="round"/>
+  <path d="m360 219 9 10-11 9-9-10Z" fill="#f3cf74"/>
+  <ellipse cx="393" cy="252" rx="16" ry="19" fill="#fff4d9"/><circle cx="398" cy="254" r="7" fill="#243843"/>
+  <path d="M379 282q18 12 30-5" fill="none" stroke="#764e49" stroke-width="5" stroke-linecap="round"/>
+  <path d="M303 351q14 13 32 14m-30 1q15 13 31 12m-21 2q13 10 26 8" fill="none" stroke="#bb7969" stroke-width="4" stroke-linecap="round"/>
+  <!-- The oversized, slightly battered launcher. -->
+  <g transform="rotate(-22 402 314)">
+    <path d="M337 295H494V331H337Z" fill="#385a6b" stroke="#243843" stroke-width="5"/>
+    <path d="M349 295v36m113-36v36" stroke="#73909a" stroke-width="8"/>
+    <path d="m493 290 27 4v39l-27 4Z" fill="#203947" stroke="#243843" stroke-width="5"/>
+    <path d="m375 332 8 26h15l-3-26" fill="#d2a16b" stroke="#243843" stroke-width="5"/>
+    <path d="m431 300 18 4-4 10-18-5Z" fill="#edc761"/>
+    <path d="M324 300h14v26h-14" fill="#7d9d9d" stroke="#243843" stroke-width="5"/>
+  </g>
+  <ellipse cx="378" cy="327" rx="19" ry="13" transform="rotate(-20 378 327)" fill="#f6b89a" stroke="#273a42" stroke-width="5"/>
+  <path d="m596 175 10-28 10 28 29 10-29 11-10 28-10-28-28-11Z" fill="#ef8069" stroke="#273a42" stroke-width="4"/>
+  <path d="m179 167 3-18m-18 30-17-5m31 24-10 14M562 422l-3-12m12 13 5-9M143 392l-8-12m19 8 1-17" stroke="#304a46" stroke-width="4" stroke-linecap="round"/>
+  <path d="M282 558h203M320 570h116" stroke="#54736d" stroke-width="5" stroke-linecap="round" opacity=".35"/>
+</svg>

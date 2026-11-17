@@ -1,0 +1,56 @@
+{
+  "browser": "webkit",
+  "startedAt": "2026-10-19T03:51:21.256Z",
+  "physicalDevice": false,
+  "checks": [],
+  "errors": [],
+  "requests": [
+    {
+      "path": "/art/hills-earth.png",
+      "status": 200
+    },
+    {
+      "path": "/art/hills-backdrop.png",
+      "status": 200
+    }
+  ],
+  "notes": [
+    "Isolated real Renderer/Game with two players and three worms each; room integration is tested separately.",
+    "Desktop browser measurements do not establish physical phone GPU or thermal performance."
+  ],
+  "version": "26.6",
+  "sourceSHA256": {
+    "client/renderer.js": "43d8d5f99734d1c914ee76ec2a8af878fc68e3a5b563865f3eb0c0585bcd01ad",
+    "client/hills-terrain.js": "1410b995594928d83dc70b3a2e93e03484112510f8d3f2d02227a14c20b46f13",
+    "client/hills-background.js": "a47abaf45cd74a1ef60fb2449e1a5202a2f5421f1ebdc668e3018eea9bf03fe9",
+    "shared/terrain.js": "17827a31d7410802ee2bb1dfc1fe85530997a2bbccebde6e8f6591523d791104",
+    "shared/engine.js": "33a603620175b81b064493da584556388bef322fe81175c3f2261395e4acfb1b"
+  },
+  "maps": {
+    "hills": {
+      "terrain": "14b5a1795cddc17a5c457e519c2e2faebd4deb188440ad2ff2330515858403af",
+      "background": "96b586fa50dc2a88d7aa362c5be98d6b97cef5dcca71db4a96ea6e892122985f",
+      "alpha": {
+        "mismatch": 0,
+        "solid": 512060
+      }
+    },
+    "cavern": {
+      "terrain": "172492ec9d1a8d2205c70557a445b626124b5d35629583709bb9dc2a73ea4fbf",
+      "background": "2fb1833e07c3c6a06cf5dcadc58391d1601ed09c89e8cab31a58829b429c1e2b",
+      "alpha": {
+        "mismatch": 0,
+        "solid": 555796
+      }
+    },
+    "islands": {
+      "terrain": "2bd52b9aa89d56b29fbedd65235cc3150124312b41a5e9147ac49d1a83bd31d5",
+      "background": "7795481743f3df8b5774758d8c1c57f520f2fcfeb8d7522a764915d2e3863f76",
+      "alpha": {
+        "mismatch": 0,
+        "solid": 444725
+      }
+    }
+  },
+  "passed": true
+}

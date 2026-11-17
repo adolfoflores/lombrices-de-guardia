@@ -1,0 +1,44 @@
+{
+  "browser": "webkit",
+  "startedAt": "2026-10-19T03:38:13.473Z",
+  "physicalDevice": false,
+  "checks": [],
+  "errors": [],
+  "requests": [],
+  "notes": [
+    "Real Game snapshots and actions in an isolated Renderer harness; room integration is covered separately.",
+    "Desktop Chrome/WebKit measurements are not physical phone performance measurements."
+  ],
+  "version": "26.6",
+  "maps": {
+    "hills": {
+      "terrain": "f914074b6e140543984be585c3e4686e82fff8c1e0cb32e03b418e0b873ffb95",
+      "background": "e2539539822267a248bd36707f720d40592a77210753f33cdf4d5010cfde2df4",
+      "alpha": {
+        "mismatch": 0,
+        "solid": 512060
+      }
+    },
+    "cavern": {
+      "terrain": "172492ec9d1a8d2205c70557a445b626124b5d35629583709bb9dc2a73ea4fbf",
+      "background": "2fb1833e07c3c6a06cf5dcadc58391d1601ed09c89e8cab31a58829b429c1e2b",
+      "alpha": {
+        "mismatch": 0,
+        "solid": 555796
+      }
+    },
+    "islands": {
+      "terrain": "2bd52b9aa89d56b29fbedd65235cc3150124312b41a5e9147ac49d1a83bd31d5",
+      "background": "7795481743f3df8b5774758d8c1c57f520f2fcfeb8d7522a764915d2e3863f76",
+      "alpha": {
+        "mismatch": 0,
+        "solid": 444725
+      }
+    }
+  },
+  "sourceSHA256": {
+    "client/renderer.js": "bd46d066e42213a66369a232a30a893dfb15182beb77cc0edb03cf6d5f11631e",
+    "shared/engine.js": "33a603620175b81b064493da584556388bef322fe81175c3f2261395e4acfb1b",
+    "shared/terrain.js": "17827a31d7410802ee2bb1dfc1fe85530997a2bbccebde6e8f6591523d791104"
+  }
+}

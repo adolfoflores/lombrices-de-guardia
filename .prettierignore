@@ -1,0 +1,11 @@
+dist/
+release/
+node_modules/
+docs/evidence/
+docs/ART-PROMPTS.md
+tests/fixtures/
+public/
+package-lock.json
+.claude/
+.hallmark/
+THIRD_PARTY_NOTICES.md
