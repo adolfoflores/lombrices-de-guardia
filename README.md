@@ -1,9 +1,10 @@
 <h1 align="center">Lombrices de guardia</h1>
 
-Lombrices de guardia es un juego de artillería por turnos en el que de 2 a 6 amigos se
-enfrentan con pelotones de gusanos armados hasta los dientes. Hay que calcular cada disparo
-contra el viento, las explosiones le arrancan pedazos al mapa y, si te descuidas, tu propio
-gusano termina en el agua.
+Lombrices de guardia es un juego de artillería por turnos inspirado en _Worms_, el clásico de
+Team17 de 1995, hecho para jugarse en el navegador con amigos. De 2 a 6 jugadores se enfrentan
+con pelotones de gusanos armados hasta los dientes. Hay que calcular cada disparo contra el
+viento, las explosiones le arrancan pedazos al mapa y, si te descuidas, tu propio gusano
+termina en el agua.
 
 Cada impacto se siente: la cámara se sacude, el humo tarda en disiparse y el cráter queda
 marcado en la roca para el resto de la partida. Los gusanos están animados pieza por pieza,
